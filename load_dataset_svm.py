@@ -127,6 +127,33 @@ print("Validation Accuracy:", accuracy_score(y_val, y_pred_val))
 print("Confusion Matrix:\n", confusion_matrix(y_val, y_pred_val))
 print("Classification Report:\n", classification_report(y_val, y_pred_val))
 
+# =====================
+# FINAL TEST EVALUATION
+# =====================
+y_pred_test = svm.predict(X_test_pca)
+
+print("\n===== FINAL TEST RESULTS =====")
+print("Test Accuracy:", accuracy_score(y_test, y_pred_test))
+print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred_test))
+print("Classification Report:\n", classification_report(y_test, y_pred_test))
+misclassified_test = np.where(y_test != y_pred_test)[0]
+
+plt.figure(figsize=(12, 6))
+for i, idx in enumerate(misclassified_test[:12]):
+    plt.subplot(3, 4, i + 1)
+    plt.imshow(X_test[idx], cmap='gray')
+    plt.title(
+        f"True: {'Open' if y_test[idx]==0 else 'Closed'}\n"
+        f"Pred: {'Open' if y_pred_test[idx]==0 else 'Closed'}"
+    )
+    plt.axis('off')
+
+plt.tight_layout()
+plt.show()
+
+print("Total misclassified in test set:", len(misclassified_test))
+
+"""
 # Visualize misclassified images
 misclassified_idx = np.where(y_val != y_pred_val)[0]
 
@@ -142,16 +169,9 @@ plt.show()
 
 print(f"Total misclassified in validation set: {len(misclassified_idx)}")
 
+"""
 
 
 
 
-"""plt.figure(figsize=(6,3))
 
-for i in range(6):
-    plt.subplot(2,3,i+1)
-    plt.imshow(data[i], cmap='gray')
-    plt.title("Open" if labels[i] == 0 else "Closed")
-    plt.axis('off')
-
-plt.show()"""
