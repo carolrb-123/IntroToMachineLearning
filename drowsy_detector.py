@@ -2,7 +2,8 @@ import cv2
 import joblib
 import numpy as np
 import time
-import winsound
+import platform
+
 import os
 from collections import deque
 from skimage.feature import hog
@@ -16,6 +17,15 @@ IMG_SIZE = 100
 WARNING_THRESHOLD = 2.0   # seconds
 CRITICAL_THRESHOLD = 5.0  # seconds
 BUFFER_SIZE = 10  # Reduced for faster response
+def play_beep(frequency=1000, duration=300):
+    system = platform.system()
+    if system == "Windows":
+        import winsound
+        winsound.Beep(frequency, duration)
+    else:
+        # macOS / Linux fallback
+        os.system('afplay /System/Library/Sounds/Ping.aiff')
+
 
 # Load model
 print(f"Loading model from {MODEL_PATH}...")
@@ -137,13 +147,13 @@ def main():
             if duration >= CRITICAL_THRESHOLD:
                 cv2.putText(frame, "!!! CRITICAL: EYES CLOSED !!!", (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.2, (0,0,255), 3)
                 if now - last_alarm_time > 0.6:
-                    winsound.Beep(1200, 400)
+                    play_beep(1200, 400)
                     last_alarm_time = now
                     log_event("CRITICAL_ALARM", "Eyes closed for 5+ seconds.")
             elif duration >= WARNING_THRESHOLD:
                 cv2.putText(frame, "WARNING: Eyes Closed", (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 165, 255), 2)
                 if now - last_alarm_time > 1.2:
-                    winsound.Beep(800, 200)
+                    play_beep(800, 200)
                     last_alarm_time = now
         else:
             closed_start_time = None
