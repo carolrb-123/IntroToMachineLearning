@@ -1,5 +1,6 @@
 import os
 import cv2
+import joblib
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -188,6 +189,18 @@ grid_search.fit(X_train_pca, y_train_aug)
 svm = grid_search.best_estimator_
 
 print("\nBest Parameters found:", grid_search.best_params_)
+
+# =====================
+# SAVE MODEL FOR REAL-TIME DETECTION
+# =====================
+MODEL_PATH = "drowsy_model.pkl"
+print(f"Saving model and PCA to {MODEL_PATH}...")
+joblib.dump({
+    "svm": svm,
+    "pca": pca,
+    "hog_params": HOG_PARAMS
+}, MODEL_PATH)
+print("Model saved successfully.")
 
 # =====================
 # VALIDATION EVALUATION

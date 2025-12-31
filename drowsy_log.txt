@@ -1,0 +1,74 @@
+[2025-12-31 13:17:58] SESSION_START: Monitoring started.
+[2025-12-31 13:18:05] TILT_DETECTED: Angle: -20.1
+[2025-12-31 13:18:07] TILT_DETECTED: Angle: -21.7
+[2025-12-31 13:18:09] TILT_DETECTED: Angle: -173.1
+[2025-12-31 13:18:57] YAWN_DETECTED: Frequent/long yawning.
+[2025-12-31 13:18:57] YAWN_DETECTED: Frequent/long yawning.
+[2025-12-31 13:18:57] YAWN_DETECTED: Frequent/long yawning.
+[2025-12-31 13:18:57] YAWN_DETECTED: Frequent/long yawning.
+[2025-12-31 13:18:57] YAWN_DETECTED: Frequent/long yawning.
+[2025-12-31 13:18:57] YAWN_DETECTED: Frequent/long yawning.
+[2025-12-31 13:18:58] TILT_DETECTED: Angle: 65.7
+[2025-12-31 13:19:02] TILT_DETECTED: Angle: 174.5
+[2025-12-31 13:19:04] TILT_DETECTED: Angle: -176.0
+[2025-12-31 13:19:30] TILT_DETECTED: Angle: 61.0
+[2025-12-31 13:19:34] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:34] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:35] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:36] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:36] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:37] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:37] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:38] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:38] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:39] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:39] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:56] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:57] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:57] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:58] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:59] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:19:59] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:20:00] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:20:00] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:20:01] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:20:01] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:20:02] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:20:02] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:20:03] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:20:03] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:20:04] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:20:05] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:20:05] SESSION_END: Monitoring stopped.
+[2025-12-31 13:21:22] SESSION_START: Monitoring started.
+[2025-12-31 13:21:23] TILT_DETECTED: Angle: 70.8
+[2025-12-31 13:21:36] TILT_DETECTED: Angle: 48.3
+[2025-12-31 13:21:45] TILT_DETECTED: Angle: 73.0
+[2025-12-31 13:21:56] TILT_DETECTED: Angle: 75.7
+[2025-12-31 13:22:01] TILT_DETECTED: Angle: 50.6
+[2025-12-31 13:22:04] SESSION_END: Monitoring stopped.
+[2025-12-31 13:23:35] SESSION_START: Monitoring started.
+[2025-12-31 13:23:41] TILT_DETECTED: Angle: 75.3
+[2025-12-31 13:23:44] TILT_DETECTED: Angle: 53.5
+[2025-12-31 13:23:46] TILT_DETECTED: Angle: 52.6
+[2025-12-31 13:23:52] TILT_DETECTED: Angle: 78.0
+[2025-12-31 13:23:54] TILT_DETECTED: Angle: 78.9
+[2025-12-31 13:24:05] TILT_DETECTED: Angle: 20.4
+[2025-12-31 13:36:55] SESSION_START: Monitoring started.
+[2025-12-31 13:37:37] SESSION_END: Monitoring stopped.
+[2025-12-31 13:39:02] SESSION_START: Monitoring started.
+[2025-12-31 13:39:46] SESSION_END: Monitoring stopped.
+[2025-12-31 13:44:08] SESSION_START: Monitoring started.
+[2025-12-31 13:45:18] SESSION_START: Monitoring started.
+[2025-12-31 13:45:57] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:45:58] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:45:58] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:45:59] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:46:00] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:46:00] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:46:01] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:46:02] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:46:02] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:46:03] CRITICAL_ALARM: Eyes closed for 5+ seconds.
+[2025-12-31 13:46:14] SESSION_END: Monitoring stopped.
+[2025-12-31 13:46:57] SESSION_START: Monitoring started.
